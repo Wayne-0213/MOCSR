@@ -1,0 +1,41 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and editor files
+.venv/
+.venv_ep4cs/
+.tmp/
+.vscode/
+.env
+.env.*
+
+# Generated logs and reports
+*.log
+*.tmp
+*.xlsx
+~$*
+
+# Do not publish generated result JSONL files yet.
+result/**/*.jsonl
+result/**/retrieval_cache/
+result/**/optimization_effect_metrics/
+
+# Only the two curated test sets are included from the root dataset folder.
+dataset/**
+!dataset/
+!dataset/java/
+!dataset/java/test_new.jsonl
+!dataset/python/
+!dataset/python/test_new.jsonl
+
+# Keep dataset helper scripts, but exclude bundled intermediate data.
+CodeRPE/dataset/**/*.json
+CodeRPE/dataset/**/*.jsonl
+CodeRPE/dataset/**/*.xlsx
+CodeRPE/dataset/**/*.html
+CodeRPE/dataset/**/*.pred
+CodeRPE/dataset/**/*.gold

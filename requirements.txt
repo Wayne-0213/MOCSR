@@ -1,0 +1,13 @@
+openai
+pandas
+tqdm
+nltk
+rouge-score
+sentence-transformers
+torch
+transformers
+tree-sitter
+tree-sitter-java
+tree-sitter-python
+requests
+openpyxl
