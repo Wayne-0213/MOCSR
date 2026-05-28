@@ -19,10 +19,11 @@ __pycache__/
 *.xlsx
 ~$*
 
-# Do not publish generated result JSONL files yet.
-result/**/*.jsonl
+# Keep heavy generated caches/reports out of git.
 result/**/retrieval_cache/
-result/**/optimization_effect_metrics/
+result/**/optimization_effect_metrics/*
+!result/**/optimization_effect_metrics/
+!result/**/optimization_effect_metrics/*.jsonl
 
 # Only the two curated test sets are included from the root dataset folder.
 dataset/**
