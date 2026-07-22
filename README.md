@@ -1,4 +1,4 @@
-# MOCSR
+# MQCSR
 
 This repository contains the code and curated test sets for MOCSR, a code-summary refinement workflow based on code evidence, retrieved dimension examples, iterative optimization, CodeRPE four-dimensional evaluation, and final metric aggregation.
 
